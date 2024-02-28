@@ -2,8 +2,9 @@
 <!--  do_not_remove: published-with-gradle-metadata  -->
 <modelVersion>4.0.0</modelVersion>
 <groupId>com.github.pratham-PDots</groupId>
-<artifactId>camera_lib_test</artifactId>
+<artifactId>camera_lib</artifactId>
 <version>1.4.9</version>
+<packaging>aar</packaging>
 <dependencies>
 <dependency>
 <groupId>androidx.databinding</groupId>
