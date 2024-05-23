@@ -1,0 +1,5 @@
+install:
+  - mvn install:install-file -Dfile=test.aar -DpomFile=pom.xml
+
+publish:
+  - mvn deploy
