@@ -1,5 +1,8 @@
+# configuration file for building snapshots and releases with jitpack.io
+jdk:
+  - openjdk17
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh
 install:
-  - mvn install:install-file -Dfile=test.aar -DpomFile=pom.xml
-
-publish:
-  - mvn deploy
+  - FILE="-Dfile=test.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.pratham-PDots -DartifactId=camera_lib -Dversion=1.6.1 -Dpackaging=aar -DgeneratePom=true
