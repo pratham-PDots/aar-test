@@ -10,7 +10,7 @@
   <groupId>com.github.pratham-PDots</groupId>
   <artifactId>camera_lib</artifactId>
   <version>1.6.1</version>
-  <packaging>aar</packaging>
+  <packaging>pom</packaging>
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>
