@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.pratham-PDots</groupId>
   <artifactId>camera_lib</artifactId>
-  <version>1.6.1</version>
+  <version>1.8.1</version>
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
